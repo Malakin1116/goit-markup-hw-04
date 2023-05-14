@@ -358,6 +358,28 @@ border-radius: 4px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.customers {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-align: center;
+    margin: 120 auto 48px auto;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    column-gap:24px;
+}
+
+.customers-link-item {
+    
+}
+
 .costomers-link-icon {
    display: flex;
    width: 168px;
