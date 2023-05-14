@@ -315,6 +315,23 @@ main {display: block;}
     border-top: none;
     }
 
+
+.secend-section-box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+    background: #F4F4FD;
+border-radius: 4px;
+}
+
+.secend-section-icon {
+ display: flex;
+ justify-content: center;
+    align-items: center;
+    width:59.72px; 
+    height:64px;
+  }
+
 .social-list {
     display: flex;
     justify-content: center;
@@ -332,15 +349,24 @@ main {display: block;}
     background-color: #4D5AE5
 }
 
+/* .social-list-icon :hover,
+.social-list-lcon :focus {
+    background-color: red ;
+} */
+
 /* .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
     fill: black;
 } */
 
-.satellite::after {
- background-image: url("../images/hw4/symbol-defs.svg#icon-group-4");
-}
+/* .satellite::after {
+ background-image: url("../images/hw4/sprait.svg");
+} */
 
 .shadow {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.shadow-click:hover,
+.shadow-click:focus {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
