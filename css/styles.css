@@ -337,6 +337,10 @@ main {display: block;}
     fill: black;
 } */
 
+.satellite::after {
+ background-image: url("../images/hw4/symbol-defs.svg#icon-group-4");
+}
 
-
-
+.shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
