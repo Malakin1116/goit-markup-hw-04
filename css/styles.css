@@ -357,3 +357,20 @@ border-radius: 4px;
 .shadow-click:focus {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.costomers-link-icon {
+   display: flex;
+   width: 168px;
+   height: 88px;
+   border: 1px solid #8e8f99;
+   border-radius: 4px;
+   align-items: center;
+   justify-content: center;
+   color: red; 
+}
+
+.costomers-link-icon:hover,
+.costomers-link-icon:focus {
+    color: #2E2F42;
+    border-color: #8e8f99;
+}
