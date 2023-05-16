@@ -374,11 +374,12 @@ background-color: var(--btn-hover-color)
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-align: center;
-    margin: 120 auto 48px auto;
+    
+    margin-bottom: 72px;
 }
 
 .customers-list {
@@ -423,5 +424,5 @@ margin-bottom: 8px;
 
 .work-four-secend {
     padding-top: 120px;
-    
+    padding-bottom: 120px;
 }
