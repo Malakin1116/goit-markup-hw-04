@@ -374,10 +374,12 @@ border-radius: 4px;
     display: flex;
     justify-content: center;
     column-gap:24px;
+    
 }
 
 .customers-link-item {
-    
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 }
 
 .costomers-link-icon {
