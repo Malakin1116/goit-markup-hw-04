@@ -247,7 +247,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     background-color:var(--primary-text-color) ;
     padding: 100px 0;}
 
-
 /* кнопка */
 .bts-one {
     background-color:  var(--secondary-bg-color);
@@ -420,5 +419,9 @@ height: 112px;
 background-color: var(--secondary-bg-color);
 border-radius: 4px;
 margin-bottom: 8px;
+}
 
+.work-four-secend {
+    padding-top: 120px;
+    
 }
