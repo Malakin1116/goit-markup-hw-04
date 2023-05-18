@@ -177,6 +177,7 @@ color: var(--title-text-color);}
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
+    background-color:#2E2F42;
 }
 
 /* кнопка */
@@ -325,8 +326,6 @@ main {display: block;}
 .secend-section-box {
     display: flex;
     justify-content: center;
-    width:264px; height:112px;
-    padding-bottom: 8px;
     background: #F4F4FD;
 border-radius: 4px;
 }
@@ -335,7 +334,6 @@ border-radius: 4px;
  display: flex;
  justify-content: center;
     align-items: center;
-    width: 25%; height: 50%;
   }
 
 .social-list {
