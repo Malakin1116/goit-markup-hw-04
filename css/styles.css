@@ -330,6 +330,8 @@ main {display: block;}
     justify-content: center;
     background: #F4F4FD;
 border-radius: 4px;
+height: 64px;
+width: 64px;
 }
 /* ???????? */
 .secend-section-icon {
@@ -385,32 +387,43 @@ background-color: var(--btn-hover-color)
 .customers-list {
     display: flex;
     justify-content: center;
-    column-gap:24px;
+    gap: 24px;
     
 }
 
 .customers-link-item {
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    width: calc((100% - 120px) / 6);
+    height:88px;
+    width: 168px;
 }
 
 .costomers-link-icon {
    display: flex;
-   width: 168px;
-   height: 88px;
+   width: 100%;
+   height: 100%;
    border: 1px solid #8e8f99;
    border-radius: 4px;
    align-items: center;
    justify-content: center;
    color: red; 
    fill: #f4f4fd;
-  
+border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+    fill: currentColor; 
 }
 
 .costomers-link-icon:hover,
 .costomers-link-icon:focus {
     color: #2E2F42;
     border-color: #8e8f99;
+    border-color: #404bbf;
+    color: #404bbf;
 }
 
 .new-secend-div {
@@ -429,4 +442,10 @@ margin-bottom: 8px;
 .work-four-secend {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.footer-div {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
